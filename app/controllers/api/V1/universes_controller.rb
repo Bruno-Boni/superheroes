@@ -1,4 +1,4 @@
-class UniversesController < ApplicationController
+class Api::V1::UniversesController < ApplicationController
   before_action :set_universe, only: %i[ show update destroy ]
 
   # GET /universes

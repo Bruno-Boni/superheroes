@@ -1,4 +1,4 @@
-class HeroesController < ApplicationController
+class Api::V1::HeroesController < ApplicationController
   before_action :set_hero, only: %i[ show update destroy ]
 
   # GET /heroes
