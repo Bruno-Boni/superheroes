@@ -3,8 +3,8 @@ development:
   encoding: unicode
   database: superheroes_development
   pool: 5
-  username: postgres
-  password: rs00
+  username: seuusuariopostgres
+  password: suasenhapostgres
   template: template0
   host: localhost
   port: 5432
@@ -14,8 +14,8 @@ test: &test
   encoding: unicode
   database: superheroes_test
   pool: 5
-  username: postgres
-  password: rs00
+  username: seuusuariopostgres
+  password: suasenhapostgres
   template: template0
   host: localhost
   port: 5432
@@ -25,8 +25,8 @@ staging:
   encoding: unicode
   database: superheroes_production
   pool: 5
-  username: postgres
-  password: rs00
+  username: seuusuariopostgres
+  password: suasenhapostgres
   template: template0
   host: localhost
 
@@ -35,7 +35,7 @@ production:
   encoding: unicode
   database: superheroes_production
   pool: 5
-  username: postgres
-  password: rs00
+  username: seuusuariopostgres
+  password: suasenhapostgres
   template: template0
   host: localhost
