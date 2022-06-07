@@ -1,0 +1,41 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: superheroes_development
+  pool: 5
+  username: postgres
+  password: rs00
+  template: template0
+  host: localhost
+  port: 5432
+
+test: &test
+  adapter: postgresql
+  encoding: unicode
+  database: superheroes_test
+  pool: 5
+  username: postgres
+  password: rs00
+  template: template0
+  host: localhost
+  port: 5432
+
+staging:
+  adapter: postgresql
+  encoding: unicode
+  database: superheroes_production
+  pool: 5
+  username: postgres
+  password: rs00
+  template: template0
+  host: localhost
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: superheroes_production
+  pool: 5
+  username: postgres
+  password: rs00
+  template: template0
+  host: localhost
