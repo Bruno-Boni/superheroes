@@ -1,24 +1,16 @@
-# README
+# O que é a API superheroes?
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+É uma API onde você pode criar vários heróis diferentes e relacioná-los com os universos que eles vieram.
+Por exemplo: O Hulk veio do universo da Marvel e o Batman veio do universo da DC Comics.
 
-Things you may want to cover:
 
-* Ruby version
+## Configuração do banco de dados
 
-* System dependencies
+Para que você consiga rodar esta aplicação, é necessário que você altere no arquivo database.yml os valores de usuário "seuusuariopostgresql" e senha "suasenhapostgresql" para os valores corretos que estão na sua máquina para o banco de dados PostgreSQL.
 
-* Configuration
+### Como criar os meus heróis?
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Para fazer isso, você deve entrar no console do Ruby on Rails através do comando "rails console" e usar o comando Hero.create!.
+2. O universe_id = 1 é a Marvel e o universe_id = 2 é a DC Comics. 
+3. Todos os heróis possuem um gênero que nesta aplicação está nomeado como "gender" e é dividido em "M" para masculino e "F" para feminino.
+4. Exemplo de criação de super-herói: Hero.create! name: "Pantera-negra", universe_id: 2, gender: "M"
