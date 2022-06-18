@@ -1,6 +1,6 @@
 # O que é a API superheroes?
 
-É uma API onde você pode criar vários heróis diferentes e relacioná-los com os universos que eles vieram.
+É uma API criada usando Ruby on Rails onde você pode criar vários heróis diferentes e relacioná-los com os universos que eles vieram.
 Por exemplo: O Hulk veio do universo da Marvel e o Batman veio do universo da DC Comics.
 
 
